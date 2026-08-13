@@ -4,7 +4,7 @@
   "private": true,
   "packageManager": "pnpm@10.30.3",
   "dependencies": {
-    "@cloudflare/kumo": "^2.9.0",
+    "@cloudflare/kumo": "^2.9.2",
     "@phosphor-icons/react": "^2.1.10",
     "react": "latest",
     "react-dom": "latest",
