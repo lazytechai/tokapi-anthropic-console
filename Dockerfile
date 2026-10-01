@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1.7
 
-FROM node:26.5.0-bookworm-slim@sha256:2d49d876e96237d76de412761cf05dbfe5aee325cc4406a4d41d5824c5bb8beb AS build
+FROM node:26.10.0-bookworm-slim@sha256:662933cf47f013bc8e4beb31a6116448427a82057ba7c42c97e4c5ba766504c2 AS build
 
 RUN npm install --global --ignore-scripts --no-audit --no-fund pnpm@10.30.3 \
     && npm cache clean --force
